@@ -1,9 +1,11 @@
 import React from 'react';
-import {Container} from 'reactstrap';
+import { Container } from 'reactstrap';
+import DogIndex from './DogIndex';
  
 const Dogs = () => {
 
   return (
+    <div>
     <Container className="App">
       <br />
       <h1 className="App-intro">
@@ -19,8 +21,13 @@ const Dogs = () => {
       </ul>
       <hr />
     </Container>
+    <Container>
+      Get Results:
+      <br/>
+      <DogIndex />
+    </Container>
+    </div>
   );
-
 }
- 
+
 export default Dogs;

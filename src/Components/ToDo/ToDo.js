@@ -1,5 +1,6 @@
 import React from 'react';
 import {Container} from 'reactstrap';
+import ToDoIndex from './ToDoIndex';
 
 const ToDo = () => {
   return(
@@ -28,4 +29,4 @@ const ToDo = () => {
   );
 };
 
-export default ToDo
+export default ToDo;
